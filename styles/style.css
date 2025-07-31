@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .container {
@@ -12,6 +12,11 @@ body {
 
 header {
     margin-top: 40px;
+    /* დავამატე ეს ჰედერის გასაფიქსად */
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    /* ––– */
 }
 
 .header__nav {
@@ -53,7 +58,8 @@ header {
     top: 28px;
     gap: 10px;
 }
-.dropdown__link{
+
+.dropdown__link {
     text-align: center;
 }
 
@@ -66,12 +72,13 @@ header {
 }
 
 
-.hero__wrapper{
+.hero__wrapper {
     background: url(../assets/images/hero.jpg) no-repeat;
-position: relative;
+    position: relative;
     height: 1084px;
 
 }
-.hero__content{
+
+.hero__content {
     position: absolute;
 }
